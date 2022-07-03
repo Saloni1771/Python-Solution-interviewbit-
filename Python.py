@@ -13,7 +13,7 @@ B : [2 3]'''
 '''Approch
 1. find the final sorted array of the given two arrays 
 here, using sort function --- follow the merge sort algorithms last step of merging two arrays. In mergersort the size of both arrays is same but it is different in this question So,lets check the length of both arrays first. 
-2. find 
+2. find the median using median formula '''
 def sort(A,B):
     n=len(A)
     m=len(B)
